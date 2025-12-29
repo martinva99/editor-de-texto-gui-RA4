@@ -146,17 +146,29 @@ Muestra en tiempo real:
 
 ## Estructura del Proyecto
 EditorDeTextoGUI/
+
 ├── src/
+
 │ ├── editorDeTextoGUI/
+
 │ │ ├── VentanaPrincipal.java # Ventana principal (Refactorizada RA4)
+
 │ │ ├── VentanaComandoVoz.java # Ventana de reconocimiento de voz
+
 │ │ ├── NuiController.java # Controlador de comandos de voz
+
 │ │ ├── NuiCommand.java # Enum con comandos disponibles
+
 │ │ ├── NuiListener.java # Interface para escuchar comandos
+
 │ │ └── ProgressLabel.java # Componente visual de progreso
+
 │ ├── lib/ # JARs de Vosk y JNA
+
 │ ├── models/ # Modelo de Vosk para español
+
 │ └── natives/ # Biblioteca nativa libvosk.dll
+
 └── README.md
 
 ---
